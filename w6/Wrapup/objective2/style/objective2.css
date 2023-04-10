@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: white;
+}
+
+.section {
+  background-color: red;
+}
+.container {
+  background-color: green;
+  max-width: 1200px;
+  /* 너비가 1200px 이상 넘어갈때 background - color red으로 바뀜 */
+  /* margin-left: auto;
+          margin-right: auto; */
+  /* -> body 에 입력한 내용들이 화면의 중앙으로 정렬이 된다 */
+  /* margin: 0 auto; */
+  margin-inline: auto;
+  /* margin-right 와 margin-left 를 통합한 것. (추천) */
+  /* padding: 0 24px; */
+  /* padding-left: 24px;
+          padding-right: 24px; */
+  padding-inline: 24px;
+  /* padding-inline으로 값을 넣어주는 것 추천 body의 양끝 쪽 24px 에 green이 들어감 */
+}
+.wrapper {
+  /* padding: 64px 0; */
+  /* padding-top: 64px;
+          padding-bottom: 64px;  */
+  padding-block: 64px;
+  /* padding-block을 해주면 위 아래 균등하게 64px로 padding 값을 넣어줄수 있음  */
+
+  background-color: blue;
+}
